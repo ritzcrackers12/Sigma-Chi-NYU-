@@ -66,7 +66,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
+  height: 110px;
 }
 
 .nav-container .logo {
@@ -75,11 +75,9 @@ ul {
 }
 
 .nav-logo-img {
-  height: 44px;
+  height: 64px;
   width: auto;
   display: block;
-  /* Invert the dark navy text to white for dark navbar */
-  filter: brightness(0) invert(1);
 }
 
 .nav-links {
@@ -132,6 +130,16 @@ ul {
   position: relative;
   z-index: 2;
   max-width: 800px;
+}
+
+.hero-logo {
+  margin-bottom: 2rem;
+}
+
+.hero-logo-img {
+  height: 120px;
+  width: auto;
+  filter: drop-shadow(0 0 20px rgba(220, 180, 57, 0.3));
 }
 
 .hero h1 {
@@ -413,7 +421,6 @@ ul {
 .footer-logo-img {
   height: 40px;
   width: auto;
-  filter: brightness(0) invert(1);
 }
 
 .footer-links {
